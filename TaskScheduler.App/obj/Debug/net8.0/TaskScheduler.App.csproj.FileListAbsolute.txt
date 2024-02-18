@@ -1,0 +1,15 @@
+C:\Users\stmih\source\repos\TaskScheduler\TaskScheduler.App\bin\Debug\net8.0\TaskScheduler.App.exe
+C:\Users\stmih\source\repos\TaskScheduler\TaskScheduler.App\bin\Debug\net8.0\TaskScheduler.App.deps.json
+C:\Users\stmih\source\repos\TaskScheduler\TaskScheduler.App\bin\Debug\net8.0\TaskScheduler.App.runtimeconfig.json
+C:\Users\stmih\source\repos\TaskScheduler\TaskScheduler.App\bin\Debug\net8.0\TaskScheduler.App.dll
+C:\Users\stmih\source\repos\TaskScheduler\TaskScheduler.App\bin\Debug\net8.0\TaskScheduler.App.pdb
+C:\Users\stmih\source\repos\TaskScheduler\TaskScheduler.App\obj\Debug\net8.0\TaskScheduler.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stmih\source\repos\TaskScheduler\TaskScheduler.App\obj\Debug\net8.0\TaskScheduler.App.AssemblyInfoInputs.cache
+C:\Users\stmih\source\repos\TaskScheduler\TaskScheduler.App\obj\Debug\net8.0\TaskScheduler.App.AssemblyInfo.cs
+C:\Users\stmih\source\repos\TaskScheduler\TaskScheduler.App\obj\Debug\net8.0\TaskScheduler.App.csproj.CoreCompileInputs.cache
+C:\Users\stmih\source\repos\TaskScheduler\TaskScheduler.App\obj\Debug\net8.0\TaskScheduler.App.sourcelink.json
+C:\Users\stmih\source\repos\TaskScheduler\TaskScheduler.App\obj\Debug\net8.0\TaskScheduler.App.dll
+C:\Users\stmih\source\repos\TaskScheduler\TaskScheduler.App\obj\Debug\net8.0\refint\TaskScheduler.App.dll
+C:\Users\stmih\source\repos\TaskScheduler\TaskScheduler.App\obj\Debug\net8.0\TaskScheduler.App.pdb
+C:\Users\stmih\source\repos\TaskScheduler\TaskScheduler.App\obj\Debug\net8.0\TaskScheduler.App.genruntimeconfig.cache
+C:\Users\stmih\source\repos\TaskScheduler\TaskScheduler.App\obj\Debug\net8.0\ref\TaskScheduler.App.dll
