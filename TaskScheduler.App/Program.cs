@@ -29,6 +29,7 @@
         {
             var startTime = DateTime.UtcNow;
             Console.WriteLine($"{startTime.ToLongTimeString()}.{startTime.Millisecond} - ID: {TaskId} - Interval: {Interval.TotalSeconds}");
+            Console.Out.Flush();
 
             var endTime = startTime + TimeSpan.FromMilliseconds(Random.Shared.Next(500, 1500)); // run for at least 0.5, max 1.5 seconds
             while (DateTime.UtcNow < endTime) ; // keep busy
@@ -46,9 +47,30 @@
     public class Scheduler
     {
         private List<SchedulerTask> tasks;
+
         public Scheduler(List<SchedulerTask> tasks)
         {
             this.tasks = tasks;
+            StartTasksScheduling();
+        }
+
+        private void StartTasksScheduling()
+        {
+            Task.Run(async () =>
+            {
+                while (true)
+                {                
+                    var tasksToBeExecuted = tasks.ToList();
+                             
+                    await Task.WhenAll(tasksToBeExecuted.Select(async task =>
+                    {
+                        await Task.Delay(task.Interval);
+                        task.Calculate();
+                    }));
+
+                    await Task.Delay(1000);
+                }
+            });
         }
     }
 
@@ -57,7 +79,7 @@
         static void Main(string[] args)
         {
             // add/modify code here to test with sample data (optional)
-            var tasks = SchedulerTask.GetTasks().Take(100).ToList();
+            var tasks = SchedulerTask.GetTasks().Take(999999999).ToList();
             var scheduler = new Scheduler(tasks);
         }
     }
